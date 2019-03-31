@@ -3,6 +3,7 @@ package cn.intellif.serverconsumer.service;
 import cn.intellif.serverconsumer.service.fail.TestFail;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -13,5 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ITest {
 
     @GetMapping("/test/hello")
-    public String hello(@RequestParam("word") String word);
+     String hello(@RequestParam("word") String word);
+
+    @PostMapping("/test/createMessage")
+    String sendMessage(@RequestParam("key") String key,@RequestParam("message") String value);
 }

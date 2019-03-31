@@ -19,7 +19,13 @@ public class TestController {
      @RequestMapping("/hello")
      public Object hello(String word){
          String test = this.test.hello(word);
-         System.out.println("----------->consumer test invoke get result:"+test);
+         System.out.println("----------->consumer hello invoke ");
          return ServerResult.successWithData(test);
+     }
+
+     @RequestMapping("/sendMessage")
+     public Object sendMessage(String key,String value){
+         System.out.println("------------>consumer sendMessage invoke");
+       return test.sendMessage(key,value);
      }
 }
