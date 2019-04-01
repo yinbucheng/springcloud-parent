@@ -1,6 +1,6 @@
-package cn.intellif.serverprovider.service.impl;
+package cn.intellif.server.provider.service.impl;
 
-import cn.intellif.serverprovider.service.ITest;
+import cn.intellif.server.provider.service.ITest;
 import org.springframework.stereotype.Service;
 
 /**

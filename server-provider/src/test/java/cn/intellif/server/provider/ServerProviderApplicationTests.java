@@ -1,4 +1,4 @@
-package cn.intellif.serverprovider;
+package cn.intellif.server.provider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

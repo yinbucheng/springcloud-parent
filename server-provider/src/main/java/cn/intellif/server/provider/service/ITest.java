@@ -1,4 +1,4 @@
-package cn.intellif.serverprovider.service;
+package cn.intellif.server.provider.service;
 
 /**
  * @author buchengyin

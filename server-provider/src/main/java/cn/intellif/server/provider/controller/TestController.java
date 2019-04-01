@@ -1,6 +1,6 @@
-package cn.intellif.serverprovider.controller;
+package cn.intellif.server.provider.controller;
 
-import cn.intellif.serverprovider.service.ITest;
+import cn.intellif.server.provider.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
