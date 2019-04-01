@@ -1,6 +1,6 @@
-package cn.intellif.serverconsumer.service.fail;
+package cn.intellif.server.consumer.service.fail;
 
-import cn.intellif.serverconsumer.service.ITest;
+import cn.intellif.server.consumer.service.ITest;
 import org.springframework.stereotype.Component;
 
 /**

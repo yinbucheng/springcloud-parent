@@ -1,4 +1,4 @@
-package cn.intellif.serverzipkin;
+package cn.intellif.server.zuul;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ServerZipkinApplicationTests {
+public class ServerZuulApplicationTests {
 
     @Test
     public void contextLoads() {

@@ -1,8 +1,8 @@
-package cn.intellif.serverconsumer.controller;
+package cn.intellif.server.consumer.controller;
 
 import cn.intellif.servercommon.LogUtils;
 import cn.intellif.servercommon.ServerResult;
-import cn.intellif.serverconsumer.service.ITest;
+import cn.intellif.server.consumer.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,6 +1,6 @@
-package cn.intellif.serverconsumer.service;
+package cn.intellif.server.consumer.service;
 
-import cn.intellif.serverconsumer.service.fail.TestFail;
+import cn.intellif.server.consumer.service.fail.TestFail;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
