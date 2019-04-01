@@ -1,4 +1,4 @@
-package cn.intellif.servercommon;
+package cn.intellif.server.common;
 
 import java.io.Serializable;
 
