@@ -68,6 +68,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>server-consumer</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

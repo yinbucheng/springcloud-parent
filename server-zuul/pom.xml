@@ -39,6 +39,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>server-zuul</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
