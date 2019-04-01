@@ -1,4 +1,4 @@
-# 采用普通配置，放弃使用apollo
+# 采用普通配置，放弃使用apollo，添加springboot-admin使用
 # 添加mybatis使用
 # 多模块打包
 ## 1.将父pom添加  <packaging>pom</packaging>
