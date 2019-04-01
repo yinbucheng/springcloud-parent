@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableApolloConfig
+//@EnableApolloConfig
 @EnableFeignClients
 public class ServerProviderApplication {
 

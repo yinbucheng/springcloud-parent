@@ -8,7 +8,7 @@ import zipkin2.server.internal.EnableZipkinServer;
 
 @SpringBootApplication
 @EnableZipkinServer
-@EnableApolloConfig
+//@EnableApolloConfig
 @EnableDiscoveryClient
 public class ServerZipkinApplication {
 

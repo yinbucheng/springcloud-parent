@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableApolloConfig(value = {"application"})
+//@EnableApolloConfig(value = {"application"})
 public class ServerConsumerApplication {
 
     public static void main(String[] args) {
