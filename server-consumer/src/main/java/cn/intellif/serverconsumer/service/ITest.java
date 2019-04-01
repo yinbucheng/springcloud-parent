@@ -17,4 +17,7 @@ public interface ITest {
 
     @GetMapping("/user/save")
     String save();
+
+    @GetMapping("/user/listAll")
+    Object listAll();
 }

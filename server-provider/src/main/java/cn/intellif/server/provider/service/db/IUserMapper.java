@@ -2,6 +2,8 @@ package cn.intellif.server.provider.service.db;
 
 import cn.intellif.server.provider.entity.UserEntity;
 
+import java.util.List;
+
 /**
  * @ClassName IUserMapper
  * @Author buchengyin
@@ -9,4 +11,5 @@ import cn.intellif.server.provider.entity.UserEntity;
  **/
 public interface IUserMapper {
     int save(UserEntity userEntity);
+    List<UserEntity> listAll();
 }

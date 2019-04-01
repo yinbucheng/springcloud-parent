@@ -4,4 +4,8 @@
     <insert id="save" parameterType="user">
         INSERT  INTO  server_test.t_user(name,age,gender) VALUES (#{name},#{age},#{gender})
     </insert>
+
+    <select id="listAll"  resultType="user" >
+        select * from server_test.t_user
+    </select>
 </mapper>

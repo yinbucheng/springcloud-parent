@@ -33,4 +33,10 @@ public class UserController {
             return "save fail";
         }
     }
+
+    @RequestMapping("/listAll")
+    public Object listAll(){
+        LogUtils.info(this,"----------------listAll method invoke");
+       return  userMapper.listAll();
+    }
 }

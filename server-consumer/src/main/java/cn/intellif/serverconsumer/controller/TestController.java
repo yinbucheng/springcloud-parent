@@ -30,4 +30,10 @@ public class TestController {
          LogUtils.info(this,"---------->consumer save method invoke ");
          return ServerResult.successWithData(test.save());
      }
+
+     @RequestMapping("/listAll")
+     public Object listAll(){
+         LogUtils.info(this,"--------->consumer listAll method invoke");
+         return ServerResult.successWithData(test.listAll());
+     }
 }

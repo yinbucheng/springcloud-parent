@@ -18,4 +18,9 @@ public class TestFail implements ITest {
     public String save() {
         return "fail callback";
     }
+
+    @Override
+    public Object listAll() {
+        return "fail callback";
+    }
 }
