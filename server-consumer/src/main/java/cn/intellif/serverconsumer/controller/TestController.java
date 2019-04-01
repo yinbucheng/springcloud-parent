@@ -1,5 +1,6 @@
 package cn.intellif.serverconsumer.controller;
 
+import cn.intellif.servercommon.LogUtils;
 import cn.intellif.servercommon.ServerResult;
 import cn.intellif.serverconsumer.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +14,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 public class TestController {
+
      @Autowired
     private ITest test;
 
      @RequestMapping("/hello")
      public Object hello(String word){
          String test = this.test.hello(word);
-         System.out.println("----------->consumer test invoke get result:"+test);
+         LogUtils.info(this,"----------->consumer hello method invoke get result:"+test);
          return ServerResult.successWithData(test);
+     }
+
+     @RequestMapping("/save")
+     public Object save(){
+         LogUtils.info(this,"---------->consumer save method invoke ");
+         return ServerResult.successWithData(test.save());
      }
 }

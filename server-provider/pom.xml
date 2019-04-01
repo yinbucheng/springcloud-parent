@@ -79,6 +79,11 @@
         </dependency>
         <!--mybatisplugs插件结束 -->
 
+        <dependency>
+            <groupId>cn.intellif</groupId>
+            <artifactId>server-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

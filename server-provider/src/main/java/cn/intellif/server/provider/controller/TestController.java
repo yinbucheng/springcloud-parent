@@ -1,6 +1,7 @@
 package cn.intellif.server.provider.controller;
 
 import cn.intellif.server.provider.service.ITest;
+import cn.intellif.servercommon.LogUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +18,7 @@ public class TestController {
 
     @RequestMapping("/hello")
     public String hello(String word){
-        System.out.println("-------------provider invoke word:"+word);
+        LogUtils.info(this,"-------------provider hello invoke word:"+word);
         return test.hello(word);
     }
 }

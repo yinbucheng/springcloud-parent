@@ -13,4 +13,9 @@ public class TestFail implements ITest {
     public String hello(String word) {
         return "fail callback";
     }
+
+    @Override
+    public String save() {
+        return "fail callback";
+    }
 }

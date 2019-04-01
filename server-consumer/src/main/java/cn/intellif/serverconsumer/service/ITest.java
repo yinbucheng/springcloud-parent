@@ -13,5 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ITest {
 
     @GetMapping("/test/hello")
-    public String hello(@RequestParam("word") String word);
+     String hello(@RequestParam("word") String word);
+
+    @GetMapping("/user/save")
+    String save();
 }
