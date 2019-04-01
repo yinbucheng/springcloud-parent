@@ -21,3 +21,6 @@
                     </archive>
                 </configuration>
             </plugin>
+
+
+## 如果某个模块依赖另外一个模块，先将那个模块执行mvn install
