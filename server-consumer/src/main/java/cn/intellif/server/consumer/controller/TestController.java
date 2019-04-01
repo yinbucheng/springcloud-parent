@@ -6,6 +6,7 @@ import cn.intellif.server.consumer.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @author buchengyin
@@ -35,5 +36,12 @@ public class TestController {
      public Object listAll(){
          LogUtils.info(this,"--------->consumer listAll method invoke");
          return ServerResult.successWithData(test.listAll());
+     }
+
+     @RequestMapping("/uploadFile")
+     public Object uploadFile(MultipartFile file){
+         String name = file.getOriginalFilename();
+         LogUtils.info(this,"-------------->filename:"+name+" filesize:"+file.getSize());
+         return ServerResult.success("upload ok");
      }
 }
