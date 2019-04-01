@@ -9,6 +9,7 @@
         <module>server-zuul</module>
         <module>server-zipkin</module>
         <module>server-common</module>
+        <module>server-admin</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -110,6 +111,12 @@
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-client</artifactId>
                 <version>2.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>1.3.1.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
