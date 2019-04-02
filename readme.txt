@@ -1,5 +1,15 @@
 # 采用普通配置，放弃使用apollo，添加springboot-admin使用
 # 添加mybatis使用
+# 添加eureka安全认证(需要在注册服务中添加如下)
+CSRF保护默认是开启的，可以禁用掉即可
+@EnableWebSecurity
+static class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.csrf().disable();
+	}
+}
+
 # 多模块打包
 ## 1.将父pom添加  <packaging>pom</packaging>
 ## 2.指定子模块的启动类
