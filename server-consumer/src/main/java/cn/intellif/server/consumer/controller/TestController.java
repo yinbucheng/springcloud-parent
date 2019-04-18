@@ -40,6 +40,9 @@ public class TestController {
 
      @RequestMapping("/uploadFile")
      public Object uploadFile(MultipartFile file){
+         if(file==null||file.isEmpty()){
+             return ServerResult.fail("请选择文件");
+         }
          String name = file.getOriginalFilename();
          LogUtils.info(this,"-------------->filename:"+name+" filesize:"+file.getSize());
          return ServerResult.success("upload ok");
