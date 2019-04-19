@@ -27,6 +27,10 @@ public class ServerResult implements Serializable {
         return new ServerResult(SUCCESS,message,null);
     }
 
+    public static ServerResult success(){
+        return success("operation success");
+    }
+
     public static int getFAIL() {
         return FAIL;
     }
