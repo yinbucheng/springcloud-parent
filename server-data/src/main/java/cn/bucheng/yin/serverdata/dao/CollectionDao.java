@@ -2,6 +2,7 @@ package cn.bucheng.yin.serverdata.dao;
 
 
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 
 /**
  * @ClassName CollectionDao
@@ -15,4 +16,5 @@ public interface CollectionDao {
   void createMixIndex(String collectionName,String ...index);
   void dropIndex(String collectionName,String ...index);
   void batchAddData(String collectionName, JSONArray jsonArray);
+  JSONObject ListData(JSONObject jsonObject);
 }
