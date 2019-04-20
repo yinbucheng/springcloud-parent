@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.intellif.server.provider.service.db.ITestMapper">
+    <insert id="batchSave" parameterType="java.util.List">
+            INSERT INTO t_user
+            (name, age, address,id_card,gender)
+            VALUES
+            <foreach collection ="list" item="test" separator =",">
+                (#{test.name}, #{test.age}, #{test.address},#{test.idCard},#{test.gender})
+            </foreach >
+    </insert>
+</mapper>

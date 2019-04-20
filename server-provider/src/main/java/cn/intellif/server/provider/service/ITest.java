@@ -6,4 +6,5 @@ package cn.intellif.server.provider.service;
  **/
 public interface ITest {
     String hello(String word);
+    void batchSaveTest(int position);
 }
