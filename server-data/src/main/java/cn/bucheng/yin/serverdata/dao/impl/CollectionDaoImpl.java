@@ -4,6 +4,7 @@ import cn.bucheng.yin.serverdata.dao.CollectionDao;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.google.gson.JsonObject;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
@@ -88,31 +89,26 @@ public class CollectionDaoImpl implements CollectionDao {
     public JSONObject ListData(JSONObject jsonObject) {
         String collectionName = jsonObject.getString("collectionName");
         Object param = jsonObject.get("condition");
-        JSONArray sortArray = jsonObject.getJSONArray("sort");
+        JSONObject sortObject = jsonObject.getJSONObject("sort");
         Integer pageNum = jsonObject.getInteger("pageNum");
         Integer pageSize = jsonObject.getInteger("pageSize");
         Query query = null;
-        if(param!=null) {
+        if (param != null) {
             String condition = JSON.toJSONString(param);
             query = new BasicQuery(condition);
-        }else{
+        } else {
             query = new Query();
         }
         //构造sort
-        if (sortArray != null) {
-            int len = sortArray.size();
-            for (int i = 0; i < len; i++) {
-                Map map = (Map) sortArray.get(i);
-                for (Object o : map.keySet()) {
-                    String field = (String) o;
-                    int desc = (int) map.get(o);
-                    if (desc > 0) {
-                        query.with(new Sort(Sort.Direction.DESC, field));
-                    } else {
-                        query.with(new Sort(Sort.Direction.ASC, field));
-                    }
+        if (sortObject != null) {
+            for (Object o : sortObject.keySet()) {
+                String field = (String) o;
+                int desc = (int) sortObject.get(o);
+                if (desc > 0) {
+                    query.with(new Sort(Sort.Direction.DESC, field));
+                } else {
+                    query.with(new Sort(Sort.Direction.ASC, field));
                 }
-
             }
         }
         long count = mongoTemplate.count(query, collectionName);
@@ -127,10 +123,10 @@ public class CollectionDaoImpl implements CollectionDao {
         }
         //这里进行分页显示
         if (pageNum != null && pageNum >= 0 && pageSize != 0 && pageSize > 0) {
-            query.limit(pageSize).skip((pageNum-1) * pageSize);
+            query.limit(pageSize).skip((pageNum - 1) * pageSize);
         }
         List<JSONObject> jsonObjects = mongoTemplate.find(query, JSONObject.class, collectionName);
-        result.put("data",jsonObjects);
+        result.put("data", jsonObjects);
         return result;
     }
 
