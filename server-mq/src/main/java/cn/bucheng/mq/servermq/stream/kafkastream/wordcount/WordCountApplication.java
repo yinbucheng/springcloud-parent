@@ -1,4 +1,4 @@
-package cn.bucheng.mq.servermq.test;
+package cn.bucheng.mq.servermq.stream.kafkastream.wordcount;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.utils.Bytes;
@@ -24,7 +24,7 @@ public class WordCountApplication {
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
 
         StreamsBuilder builder = new StreamsBuilder();
-        //从哪个topic中读取数据
+        //从哪个topic中读取数据（也就是监听哪个topic）
         KStream<String, String> textLines = builder.stream("streams-plaintext-input");
         KTable<String, Long> wordCounts = textLines
                 .mapValues(textLine -> textLine.toLowerCase())

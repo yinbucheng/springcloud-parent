@@ -1,4 +1,4 @@
-package cn.bucheng.mq.servermq.test;
+package cn.bucheng.mq.servermq.stream.kafkastream.wordcount;
 
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
