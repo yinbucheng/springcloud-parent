@@ -22,7 +22,7 @@ public class WordCountProvider {
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         Producer<String, String> producer = new KafkaProducer<String, String>(properties);
-        String topic = "yinchong-topic";
+        String topic = "streams-wordcount-output";
         for (int i = 0; i < 200; i++) {
             ProducerRecord<String, String> record = new ProducerRecord<>(topic, "test" + i, "test nice good hello word i am good boy xiexie nice");
             producer.send(record);
