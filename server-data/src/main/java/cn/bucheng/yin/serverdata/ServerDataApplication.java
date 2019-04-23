@@ -5,6 +5,9 @@ import com.mongodb.client.model.IndexOptions;
 import org.bson.Document;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -21,6 +24,8 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableSwagger2
+@EnableDiscoveryClient
+@EnableFeignClients
 public class ServerDataApplication {
 
     public static void main(String[] args) {
