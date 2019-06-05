@@ -19,11 +19,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 //@EnableApolloConfig
 @EnableFeignClients
 @EnableSwagger2
-@MapperScan(basePackages = {"cn.intellif.server.provider.service.db"})
-public class ServerProviderApplication {
+@MapperScan(basePackages = {"cn.intellif.server.provider.dao"})
+public class BootstrapApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServerProviderApplication.class, args);
+        SpringApplication.run(BootstrapApplication.class, args);
     }
 
     //下面是集成swigger2

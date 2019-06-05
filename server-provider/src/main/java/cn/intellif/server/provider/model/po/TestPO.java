@@ -1,13 +1,21 @@
-package cn.intellif.server.provider.entity;
+package cn.intellif.server.provider.model.po;
+
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.enums.IdType;
+import org.apache.ibatis.type.Alias;
 
 import java.io.Serializable;
 
 /**
- * @ClassName TestEntity
+ * @ClassName TestPO
  * @Author buchengyin
  * @Date 2019/4/20 16:24
  **/
-public class TestEntity implements Serializable {
+@TableName(value = "t_test")
+@Alias("Test")
+public class TestPO implements Serializable {
+    @TableId(type = IdType.AUTO)
     private Long id;
     private String name;
     private Integer age;
