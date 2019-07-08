@@ -1,0 +1,182 @@
+2019-04-23 19:47:13.888 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:47:13.896 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:47:13.896 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:47:13.896 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:47:36.920 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:47:36.925 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:47:36.926 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:47:36.926 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:48:17.289 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:48:17.331 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:48:17.332 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:48:17.333 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:48:59.753 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:48:59.757 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:48:59.757 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:48:59.757 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:49:07.257 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:49:07.263 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:49:07.263 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:49:07.263 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:49:07.264 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:49:07.264 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:49:07.264 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:49:07.265 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:49:07.270 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:49:13.944 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:49:13.948 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:49:13.948 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:49:13.948 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:50:02.099 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:50:02.107 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:50:02.107 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:50:02.107 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:51:27.235 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:51:27.240 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:51:27.240 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:51:27.240 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:51:27.241 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:51:27.241 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:51:27.241 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:51:27.242 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:51:27.249 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:51:27.423 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 19:51:27.423 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [25a7cad7-2fd0-4525-96fd-65501e10e4ad]
+2019-04-23 19:51:39.911 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:51:39.915 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:51:39.915 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:51:39.915 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:51:39.915 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:51:39.916 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:51:39.916 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:51:39.917 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:51:39.922 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:56:34.961 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:56:34.968 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:56:34.969 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:56:34.996 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:56:34.997 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:56:34.997 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:56:34.997 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:56:34.998 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:56:34.998 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:56:34.998 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:56:34.999 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:56:35.005 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:56:49.779 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:56:49.790 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:56:49.792 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:56:49.827 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:56:49.827 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:56:49.828 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:56:49.828 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:56:49.829 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:56:49.829 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:56:49.829 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:56:49.830 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:56:49.839 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:56:50.004 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 19:56:50.005 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [8bec55ef-8b18-418b-bd07-c7baba19882b]
+2019-04-23 19:57:52.891 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:57:52.900 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:57:52.902 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:57:52.936 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:57:52.936 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:57:52.936 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:57:52.936 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:58:38.033 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:58:38.041 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:58:38.042 DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2019-04-23 19:58:38.043 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [roles] section.  Processing...
+2019-04-23 19:58:38.045 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:58:38.073 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:58:38.073 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:58:38.073 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:58:38.073 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:58:38.075 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:58:38.075 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:58:38.075 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:58:38.076 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:58:38.080 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:58:38.267 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 19:58:38.267 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [c3dc7e37-e5d0-4866-901c-605e7c294e5f]
+2019-04-23 19:59:31.106 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:59:31.116 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:59:31.117 DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2019-04-23 19:59:31.119 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [roles] section.  Processing...
+2019-04-23 19:59:31.121 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:59:31.162 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:59:31.162 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:59:31.163 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:59:31.163 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:59:31.164 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:59:31.164 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:59:31.164 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:59:31.166 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:59:31.172 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 19:59:31.362 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 19:59:31.362 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [25ab2847-b689-4749-9c89-1cd7b2259640]
+2019-04-23 19:59:58.357 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 19:59:58.369 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 19:59:58.370 DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2019-04-23 19:59:58.371 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [roles] section.  Processing...
+2019-04-23 19:59:58.373 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 19:59:58.411 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 19:59:58.411 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 19:59:58.411 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 19:59:58.411 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 19:59:58.412 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 19:59:58.413 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:59:58.413 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 19:59:58.414 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 19:59:58.421 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 20:00:15.480 DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [user.ini]
+2019-04-23 20:00:15.513 DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2019-04-23 20:00:15.514 DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2019-04-23 20:00:15.515 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [roles] section.  Processing...
+2019-04-23 20:00:15.518 DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2019-04-23 20:00:15.550 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 20:00:15.550 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 20:00:15.550 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2019-04-23 20:00:15.550 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 20:00:15.551 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 20:00:15.552 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:00:15.552 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:00:15.553 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 20:00:15.560 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 20:00:15.757 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 20:00:15.758 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [e68dd890-d345-4b8a-a6e6-d46022413e29]
+2019-04-23 20:20:27.532 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 20:20:27.535 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 20:20:27.537 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+2019-04-23 20:20:27.537 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 20:20:53.584 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 20:20:53.587 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 20:20:53.587 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+2019-04-23 20:20:53.587 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 20:20:53.588 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 20:20:53.588 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:20:53.589 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:20:53.589 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 20:20:53.594 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 20:20:53.737 DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+2019-04-23 20:20:53.737 DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-04-23 20:20:53.743 DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+2019-04-23 20:20:53.744 DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-04-23 20:21:08.521 DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [yinchong] from doGetAuthenticationInfo
+2019-04-23 20:21:08.523 DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [yinchong].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].
+2019-04-23 20:21:08.523 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [[C]
+2019-04-23 20:21:08.523 DEBUG org.apache.shiro.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2019-04-23 20:21:08.524 DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - yinchong, rememberMe=false].  Returned account [yinchong]
+2019-04-23 20:21:08.524 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:21:08.524 DEBUG org.apache.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2019-04-23 20:21:08.525 DEBUG org.apache.shiro.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2019-04-23 20:21:08.528 DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2019-04-23 20:21:08.674 DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+2019-04-23 20:21:08.674 DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-04-23 20:21:08.677 DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+2019-04-23 20:21:08.678 DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-04-23 20:21:08.679 DEBUG org.apache.shiro.mgt.DefaultSecurityManager - Logging out subject with primary principal yinchong
+2019-04-23 20:21:08.679 DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+2019-04-23 20:21:08.679 DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2019-04-23 20:21:08.680 DEBUG org.apache.shiro.session.mgt.AbstractSessionManager - Stopping session with id [f7a1eb68-0de2-44d4-ad3d-67862d050111]

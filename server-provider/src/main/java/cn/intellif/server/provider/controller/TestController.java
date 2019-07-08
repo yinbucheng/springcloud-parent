@@ -3,6 +3,7 @@ package cn.intellif.server.provider.controller;
 import cn.intellif.server.common.LogUtils;
 import cn.intellif.server.common.ServerResult;
 import cn.intellif.server.provider.service.ITestService;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -31,21 +32,29 @@ public class TestController {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    @GetMapping("/hello")
-    @ApiOperation(value = "说hello", notes = "说hello")
-    @ApiImplicitParam(name = "word", value = "单词", required = true, dataType = "String")
-    public String hello(String word) {
-        LogUtils.info(this, "-------------provider hello invoke word:" + word);
-        return test.hello(word);
+
+    @RequestMapping("/test")
+    public Object test(){
+        return "test";
     }
 
-    @PostMapping("/hi")
-    @ApiOperation(value = "hi", notes = "嗨")
-    @ApiImplicitParams({@ApiImplicitParam(name = "someThing", value = "某些事件", required = true), @ApiImplicitParam(name = "hahaha", value = "hahaha", required = true)})
-    public String hi(String someThing, String hahaha) {
-        LogUtils.info(this, someThing + hahaha);
-        return test.hello(someThing);
+
+
+    @GetMapping("/hello")
+    @ApiOperation(value = "说hello", notes = "说hello")
+    @ApiImplicitParam(name = "word", value = "单词", required = true, dataType = "Object")
+    public Object hello(String word) {
+        try {
+            System.out.println("=====================>test===============");
+           String content =  test.hello(word);
+           return ServerResult.success(content);
+        }catch (BlockException e){
+            return ServerResult.fail("block");
+        }catch (Exception e){
+            return ServerResult.fail(e.getMessage());
+        }
     }
+
 
 
     @PostMapping("/batchSave")

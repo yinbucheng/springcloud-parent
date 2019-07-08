@@ -1,0 +1,129 @@
+2019-07-08 09:32:34.207 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 09:32:35.931 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 09:32:37.155 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 09:32:38.501 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 09:39:47.397 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:41:36.581 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:41:36.581 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:42:37.163 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 09:43:07.396 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:43:32.509 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:43:32.509 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:48:52.396 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:51:26.635 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:51:26.635 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 09:52:37.171 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 09:52:57.396 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 10:02:37.178 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 10:12:37.186 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 10:22:37.195 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 10:32:37.202 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 10:42:37.228 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 10:52:37.236 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 11:02:37.243 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 11:12:37.251 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 11:22:37.259 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 11:32:37.266 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 14:54:15.454 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 14:54:17.071 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 14:54:18.546 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 14:54:19.906 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 15:04:18.554 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 15:14:18.561 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 15:24:18.569 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 15:34:18.576 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 15:44:18.584 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 15:54:18.591 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:04:18.598 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:14:18.606 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:24:18.613 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:34:18.620 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:38:29.593 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 16:38:31.220 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 16:38:32.353 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:38:32.906 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-PROVIDER - WIN-21HHNRDBUAV:server-provider:8000
+2019-07-08 16:38:32.906 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-PROVIDER - WIN-21HHNRDBUAV:server-provider:8000
+2019-07-08 16:38:33.657 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 16:38:34.531 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:38:34.532 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:40:22.532 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:42:59.986 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 16:43:01.698 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 16:43:02.899 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 16:43:04.193 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 16:52:18.161 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:53:01.879 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:53:01.880 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 16:53:02.907 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:03:02.914 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:07:23.185 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 17:08:33.185 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-PROVIDER/WIN-21HHNRDBUAV:server-provider:8000
+2019-07-08 17:13:02.922 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:23:02.930 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:30:28.185 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 17:33:02.937 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:35:54.779 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 17:35:54.779 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 17:43:22.835 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 17:43:24.713 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 17:43:26.077 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:43:27.423 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 17:53:26.085 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:56:16.316 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 17:58:16.341 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-PROVIDER/WIN-21HHNRDBUAV:server-provider:8000
+2019-07-08 17:58:39.203 WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:954) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:961) [spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+2019-07-08 17:58:49.153 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 17:58:50.751 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 17:58:51.869 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 17:58:53.145 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 18:08:51.876 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 18:18:51.884 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 18:28:51.892 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 18:31:37.749 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 18:31:39.316 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-08 18:31:40.415 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 18:31:41.687 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=register-center, managementUrl=http://WIN-21HHNRDBUAV:9090/actuator, healthUrl=http://WIN-21HHNRDBUAV:9090/actuator/health, serviceUrl=http://WIN-21HHNRDBUAV:9090/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-08 18:37:30.600 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 18:41:40.422 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 18:51:40.430 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:01:40.438 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:11:40.446 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:21:40.454 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:31:40.462 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:39:35.779 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 19:41:40.470 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 19:42:04.975 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 19:42:04.975 WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): SERVER-CONSUMER - WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 19:49:45.788 WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for SERVER-CONSUMER/WIN-21HHNRDBUAV:server-consumer:7001
+2019-07-08 19:51:40.477 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 20:01:40.484 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 20:11:40.491 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 20:21:40.499 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-07-08 20:31:40.507 WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry

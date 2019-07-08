@@ -8,6 +8,6 @@ import com.baomidou.mybatisplus.service.IService;
  * @Date 2019/3/30 15:37
  **/
 public interface ITestService extends IService<TestPO>{
-    String hello(String word);
+    String hello(String word)throws  Exception;
     void batchSaveTest(int position);
 }

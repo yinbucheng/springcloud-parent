@@ -3,6 +3,8 @@ package cn.intellif.server.provider.controller;
 import cn.intellif.server.common.LogUtils;
 import cn.intellif.server.provider.model.po.UserPO;
 import cn.intellif.server.provider.dao.IUserMapper;
+import com.alibaba.csp.sentinel.EntryType;
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

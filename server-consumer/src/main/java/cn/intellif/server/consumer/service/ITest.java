@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author buchengyin
  * @Date 2019/3/30 15:23
  **/
-@FeignClient(value = "server-provider",fallback = TestFail.class)
+@FeignClient(value = "server-provider", fallback = TestFail.class)
 public interface ITest {
 
     @GetMapping("/test/hello")
-     String hello(@RequestParam("word") String word);
+    String hello(@RequestParam("word") String word);
 
-    @GetMapping("/user/save")
+    @GetMapping("/test/test")
     String save();
 
     @GetMapping("/user/listAll")

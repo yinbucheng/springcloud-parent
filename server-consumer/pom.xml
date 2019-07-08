@@ -42,11 +42,6 @@
             <version>RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.netflix.feign</groupId>
-            <artifactId>feign-okhttp</artifactId>
-            <version>RELEASE</version>
-        </dependency>
 
         <dependency>
             <groupId>cn.intellif</groupId>
@@ -71,6 +66,12 @@
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.bucheng</groupId>
+            <artifactId>fegin-rpc</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

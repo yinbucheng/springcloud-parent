@@ -58,3 +58,9 @@ mybatis-plus.configuration.cache-enabled=false
 
 spring.boot.admin.client.url=http://localhost:5050
 management.endpoints.web.exposure.include=*
+
+#服务端启动端口配置
+feign.rpc.port=8888
+#是否启动feign的rpc调用默认为true
+feign.rpc.enable=true
+feign.rpc.client.port=9888
