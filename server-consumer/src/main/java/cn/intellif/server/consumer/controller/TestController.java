@@ -19,46 +19,43 @@ import java.util.Map;
 @RequestMapping("/test")
 public class TestController {
 
-     @Autowired
+    @Autowired
     private ITest test;
 
-     @RequestMapping("/hello")
-     public Object hello(String word){
-         String test = this.test.hello(word);
-         LogUtils.info(this,"----------->consumer hello method invoke get result:"+test);
-         return ServerResult.successWithData(test);
-     }
+    @RequestMapping("/hello")
+    public Object hello(String word) {
+        String test = this.test.hello(word);
+        LogUtils.info(this, "----------->consumer hello method invoke get result:" + test);
+        return ServerResult.successWithData(test);
+    }
 
-     @RequestMapping("/save")
-     public Object save(){
-         LogUtils.info(this,"---------->consumer save method invoke ");
-         return ServerResult.successWithData(test.save());
-     }
+    @RequestMapping("/save")
+    public Object save() {
+        LogUtils.info(this, "---------->consumer save method invoke ");
+        return ServerResult.successWithData(test.save());
+    }
 
 
-     @RequestMapping("/testJson")
-     public Object testJson(@RequestBody Map<String,String> param){
-         Object o = test.testJson(param);
-         System.out.println(o);
-         if(o instanceof ServerResult){
-            return o;
-         }
-         return ServerResult.successWithData(o);
-     }
+    @RequestMapping("/testJson")
+    public Object testJson(@RequestBody Map<String, String> param) {
+        Object o = test.testJson(param);
+        System.out.println(o);
+        return o;
+    }
 
-     @RequestMapping("/listAll")
-     public Object listAll(){
-         LogUtils.info(this,"--------->consumer listAll method invoke");
-         return ServerResult.successWithData(test.listAll());
-     }
+    @RequestMapping("/listAll")
+    public Object listAll() {
+        LogUtils.info(this, "--------->consumer listAll method invoke");
+        return ServerResult.successWithData(test.listAll());
+    }
 
-     @RequestMapping("/uploadFile")
-     public Object uploadFile(MultipartFile file){
-         if(file==null||file.isEmpty()){
-             return ServerResult.fail("请选择文件");
-         }
-         String name = file.getOriginalFilename();
-         LogUtils.info(this,"-------------->filename:"+name+" filesize:"+file.getSize());
-         return ServerResult.success("upload ok");
-     }
+    @RequestMapping("/uploadFile")
+    public Object uploadFile(MultipartFile file) {
+        if (file == null || file.isEmpty()) {
+            return ServerResult.fail("请选择文件");
+        }
+        String name = file.getOriginalFilename();
+        LogUtils.info(this, "-------------->filename:" + name + " filesize:" + file.getSize());
+        return ServerResult.success("upload ok");
+    }
 }
