@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.intellif.server.provider.service.db.IUserMapper">
-    <insert id="save" parameterType="user">
+<mapper namespace="cn.intellif.server.provider.dao.IUserMapper">
+    <insert id="save" parameterType="User">
         INSERT  INTO  server_test.t_user(name,age,gender) VALUES (#{name},#{age},#{gender})
     </insert>
 
-    <select id="listAll"  resultType="user" >
+    <select id="listAll"  resultType="User" >
         select * from server_test.t_user
     </select>
 </mapper>

@@ -1,8 +1,8 @@
 package cn.intellif.server.provider.controller;
 
 import cn.intellif.server.common.LogUtils;
-import cn.intellif.server.provider.entity.UserEntity;
-import cn.intellif.server.provider.service.db.IUserMapper;
+import cn.intellif.server.provider.model.po.UserPO;
+import cn.intellif.server.provider.dao.IUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,7 +22,7 @@ public class UserController {
     @RequestMapping("/save")
     public Object save(){
         LogUtils.info(this,"------------->provider save invoke");
-        UserEntity entity = new UserEntity();
+        UserPO entity = new UserPO();
         entity.setAge(10);
         entity.setName("yinchong");
         entity.setGender("nan");

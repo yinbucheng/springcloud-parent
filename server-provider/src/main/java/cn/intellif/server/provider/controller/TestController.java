@@ -2,7 +2,7 @@ package cn.intellif.server.provider.controller;
 
 import cn.intellif.server.common.LogUtils;
 import cn.intellif.server.common.ServerResult;
-import cn.intellif.server.provider.service.ITest;
+import cn.intellif.server.provider.service.ITestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -27,7 +27,7 @@ import java.util.Map;
 @RequestMapping("/test")
 public class TestController {
     @Autowired
-    private ITest test;
+    private ITestService test;
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
