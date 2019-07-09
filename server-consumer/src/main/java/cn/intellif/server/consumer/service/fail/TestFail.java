@@ -3,6 +3,8 @@ package cn.intellif.server.consumer.service.fail;
 import cn.intellif.server.consumer.service.ITest;
 import org.springframework.stereotype.Component;
 
+import java.util.Map;
+
 /**
  * @author buchengyin
  * @Date 2019/3/30 15:25
@@ -22,5 +24,10 @@ public class TestFail implements ITest {
     @Override
     public Object listAll() {
         return "fail callback";
+    }
+
+    @Override
+    public Object testJson(Map<String, String> param) {
+        return "fail";
     }
 }

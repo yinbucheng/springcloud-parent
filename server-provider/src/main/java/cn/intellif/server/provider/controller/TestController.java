@@ -39,6 +39,14 @@ public class TestController {
         return test.hello(word);
     }
 
+
+    @RequestMapping("/testJson")
+    public Object testJson(@RequestBody Map<String,String> param){
+        System.out.println(param);
+        param.put("test","ok");
+        return ServerResult.successWithData(param);
+    }
+
     @PostMapping("/hi")
     @ApiOperation(value = "hi", notes = "嗨")
     @ApiImplicitParams({@ApiImplicitParam(name = "someThing", value = "某些事件", required = true), @ApiImplicitParam(name = "hahaha", value = "hahaha", required = true)})

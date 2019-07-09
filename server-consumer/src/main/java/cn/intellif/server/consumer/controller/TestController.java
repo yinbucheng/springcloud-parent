@@ -4,9 +4,12 @@ import cn.intellif.server.common.LogUtils;
 import cn.intellif.server.common.ServerResult;
 import cn.intellif.server.consumer.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.util.Map;
 
 /**
  * @author buchengyin
@@ -30,6 +33,17 @@ public class TestController {
      public Object save(){
          LogUtils.info(this,"---------->consumer save method invoke ");
          return ServerResult.successWithData(test.save());
+     }
+
+
+     @RequestMapping("/testJson")
+     public Object testJson(@RequestBody Map<String,String> param){
+         Object o = test.testJson(param);
+         System.out.println(o);
+         if(o instanceof ServerResult){
+            return o;
+         }
+         return ServerResult.successWithData(o);
      }
 
      @RequestMapping("/listAll")
