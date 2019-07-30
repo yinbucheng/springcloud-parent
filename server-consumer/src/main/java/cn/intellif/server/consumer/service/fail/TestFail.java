@@ -27,7 +27,17 @@ public class TestFail implements ITest {
     }
 
     @Override
-    public Object testJson(Map<String, String> param) {
+    public String testJson(Map<String, String> param) {
+        return "fail";
+    }
+
+    @Override
+    public String testGet(String name) {
+        return "fail";
+    }
+
+    @Override
+    public String testFormData(String name, String gender) {
         return "fail";
     }
 }

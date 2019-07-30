@@ -44,7 +44,20 @@ public class TestController {
     public Object testJson(@RequestBody Map<String,String> param){
         System.out.println(param);
         param.put("test","ok");
-        return ServerResult.successWithData(param);
+        return "success";
+    }
+
+    @RequestMapping("/testGet")
+    public Object testGet(@RequestParam("name") String name){
+        System.out.println(name);
+        return "success";
+    }
+
+
+    @RequestMapping("/testFormData")
+    public Object testFormData(String name,String gender){
+        System.out.println(name+":"+gender);
+        return "success";
     }
 
     @PostMapping("/hi")

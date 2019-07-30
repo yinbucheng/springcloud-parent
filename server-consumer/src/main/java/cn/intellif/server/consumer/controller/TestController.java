@@ -4,6 +4,7 @@ import cn.intellif.server.common.LogUtils;
 import cn.intellif.server.common.ServerResult;
 import cn.intellif.server.consumer.service.ITest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -43,11 +44,19 @@ public class TestController {
         return o;
     }
 
+    @GetMapping("/testGet")
+    public Object testGet(String name){
+        System.out.println(name);
+        return ServerResult.successWithData(test.testGet(name));
+    }
+
     @RequestMapping("/listAll")
     public Object listAll() {
         LogUtils.info(this, "--------->consumer listAll method invoke");
         return ServerResult.successWithData(test.listAll());
     }
+
+
 
     @RequestMapping("/uploadFile")
     public Object uploadFile(MultipartFile file) {

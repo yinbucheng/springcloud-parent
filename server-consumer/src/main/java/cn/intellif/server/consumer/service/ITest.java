@@ -2,10 +2,7 @@ package cn.intellif.server.consumer.service;
 
 import cn.intellif.server.consumer.service.fail.TestFail;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -26,5 +23,11 @@ public interface ITest {
     Object listAll();
 
     @PostMapping("/test/testJson")
-    Object testJson(@RequestBody Map<String,String> param);
+    String testJson(@RequestBody Map<String,String> param);
+
+    @GetMapping("/test/testGet")
+    String testGet(@RequestParam("name") String name);
+
+    @PostMapping("/test/testFormData")
+    String testFormData(@RequestParam("name") String name,@RequestParam("gender") String gender);
 }

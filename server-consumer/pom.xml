@@ -82,7 +82,7 @@
 
         <dependency>
             <groupId>cn.bucheng</groupId>
-            <artifactId>fegin-rpc</artifactId>
+            <artifactId>feign-rpc</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
