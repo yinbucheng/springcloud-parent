@@ -1,0 +1,78 @@
+2019-07-09 22:54:24.509 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 2 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:54:25.573 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 22:54:29.447 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 22:54:30.513 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 4 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:54:38.515 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 8 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:54:50.519 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 16 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: Connection refused: connect]]
+2019-07-09 22:55:10.521 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 32 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:55:35.841 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=server-provider, managementUrl=http://LAPTOP-MQHIV46L:8000/actuator, healthUrl=http://LAPTOP-MQHIV46L:8000/actuator/health, serviceUrl=http://LAPTOP-MQHIV46L:8000/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-09 22:55:46.522 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 64 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:56:54.540 WARN  com.ctrip.framework.apollo.internals.RemoteConfigLongPollService - Long polling failed, will retry in 120 seconds. appId: server-provider, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=server-provider&ip=192.168.40.2 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-09 22:57:33.827 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 22:57:41.690 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 22:58:26.230 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=server-provider, managementUrl=http://192.168.40.2:8000/actuator, healthUrl=http://LAPTOP-MQHIV46L:8000/actuator/health, serviceUrl=http://192.168.40.2:8000/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-09 23:00:09.401 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:00:16.381 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:01:01.931 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:01:09.551 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:02:14.845 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=server-provider, managementUrl=http://LAPTOP-MQHIV46L:8000/actuator, healthUrl=http://LAPTOP-MQHIV46L:8000/actuator/health, serviceUrl=http://LAPTOP-MQHIV46L:8000/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-09 23:03:35.485 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:03:42.687 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:04:19.526 WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2019-07-09 23:04:32.671 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=server-provider, managementUrl=http://LAPTOP-MQHIV46L:8000/actuator, healthUrl=http://192.168.40.2:8000/actuator/health, serviceUrl=http://LAPTOP-MQHIV46L:8000/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-09 23:18:20.337 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:18:27.402 WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-09 23:19:10.281 WARN  de.codecentric.boot.admin.client.registration.ApplicationRegistrator - Failed to register application as Application(name=server-provider, managementUrl=http://LAPTOP-MQHIV46L:8000/actuator, healthUrl=http://192.168.40.2:8000/actuator/health, serviceUrl=http://192.168.40.2:8000/) at spring-boot-admin ([http://localhost:5050/instances]): I/O error on POST request for "http://localhost:5050/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-07-09 23:19:29.876 WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2019-07-09 23:21:37.431 WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108) ~[netty-buffer-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) ~[netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460) [netty-transport-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.27.Final.jar:4.1.27.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]

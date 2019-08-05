@@ -1,0 +1,284 @@
+2019-07-11 22:31:00.217 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a1cdc6d: startup date [Thu Jul 11 22:31:00 CST 2019]; root of context hierarchy
+2019-07-11 22:31:00.363 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-11 22:31:00.389 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fda864ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-11 22:31:02.247 INFO  cn.intellif.server.consumer.ServerConsumerApplication - No active profile set, falling back to default profiles: default
+2019-07-11 22:31:02.273 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc: startup date [Thu Jul 11 22:31:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@a1cdc6d
+2019-07-11 22:31:03.228 INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=ee6754cb-aa93-335d-8b3e-d43294b80ccf
+2019-07-11 22:31:03.244 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-11 22:31:03.440 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fda864ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-11 22:31:03.861 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+2019-07-11 22:31:03.870 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+2019-07-11 22:31:03.878 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-11 22:31:03.878 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-11 22:31:03.882 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\developtool\MAVEN\apache-maven-3.5.2\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\developtool\MongoDB\Server\3.4\bin;D:\solr\bin;D:\developtool\git\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_151\bin;D:\Go\bin;D:\developtool\kafka_2.12-2.1.0\kafka-eagle-1.3.0\kafka-eagle-web-1.3.0-bin\kafka-eagle-web-1.3.0\bin;D:\developtool\gradle-4.10.3\bin;C:\Program Files\nodejs\;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Users\86322\AppData\Local\Microsoft\WindowsApps;C:\Users\86322\AppData\Local\GitHubDesktop\bin;C:\Users\86322\AppData\Local\Microsoft\WindowsApps;C:\Users\86322\go\bin;D:\Program Files\JetBrains\GoLand 2018.3\bin;;;D:\developtool\IntelliJ IDEA 2019.1\bin;;C:\Users\86322\AppData\Roaming\npm;.]
+2019-07-11 22:31:04.154 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-11 22:31:04.155 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1882 ms
+2019-07-11 22:31:04.397 INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-11 22:31:04.406 INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@59023f17
+2019-07-11 22:31:07.146 INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-07-11 22:31:08.922 INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2019-07-11 22:31:09.753 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'tracingFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-07-11 22:31:09.754 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-07-11 22:31:09.756 INFO  org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-07-11 22:31:09.804 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing FeignContext-server-provider: startup date [Thu Jul 11 22:31:09 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc
+2019-07-11 22:31:09.815 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-11 22:31:10.776 INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-11 22:31:10.944 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-11 22:31:11.156 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc: startup date [Thu Jul 11 22:31:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@a1cdc6d
+2019-07-11 22:31:11.208 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/save]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.save()
+2019-07-11 22:31:11.210 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/uploadFile]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.uploadFile(org.springframework.web.multipart.MultipartFile)
+2019-07-11 22:31:11.210 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/hello]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.hello(java.lang.String)
+2019-07-11 22:31:11.211 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/testJson]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.testJson(java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:11.211 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/testGet],methods=[GET]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.testGet(java.lang.String)
+2019-07-11 22:31:11.211 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/test/listAll]}" onto public java.lang.Object cn.intellif.server.consumer.controller.TestController.listAll()
+2019-07-11 22:31:11.212 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-11 22:31:11.213 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-11 22:31:11.256 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-11 22:31:11.257 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-11 22:31:11.570 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 
+2019-07-11 22:31:11.797 INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc: startup date [Thu Jul 11 22:31:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@a1cdc6d] and template loader path [classpath:/templates/]
+2019-07-11 22:31:11.798 INFO  org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-11 22:31:12.918 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2019-07-11 22:31:12.933 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.934 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.934 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.934 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.935 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.935 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.935 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.935 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.936 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.936 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.936 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.937 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.937 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.937 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.937 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.938 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.938 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.938 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.938 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.938 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.939 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.939 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.939 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.939 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.940 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-07-11 22:31:12.940 INFO  org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-11 22:31:13.021 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-11 22:31:13.031 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-07-11 22:31:13.033 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-07-11 22:31:13.034 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-07-11 22:31:13.038 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-07-11 22:31:13.049 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-07-11 22:31:13.062 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=38b27cdc,type=ConfigurationPropertiesRebinder]
+2019-07-11 22:31:13.079 INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-07-11 22:31:13.097 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-11 22:31:13.144 INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-11 22:31:13.235 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-11 22:31:13.235 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-11 22:31:13.374 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-11 22:31:13.375 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-11 22:31:13.678 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:31:14.171 INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-11 22:31:14.171 INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-11 22:31:14.171 INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-11 22:31:14.172 INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-11 22:31:14.172 INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-11 22:31:14.172 INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-07-11 22:31:14.172 INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-11 22:31:14.301 INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-11 22:31:14.303 INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-11 22:31:14.304 INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-11 22:31:14.307 INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1562855474307 with initial instances count: 1
+2019-07-11 22:31:14.316 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application server-consumer with eureka with status UP
+2019-07-11 22:31:14.317 INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1562855474317, current=UP, previous=STARTING]
+2019-07-11 22:31:14.318 INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVER-CONSUMER/localhost:server-consumer:7001: registering service...
+2019-07-11 22:31:14.344 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+2019-07-11 22:31:14.348 INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVER-CONSUMER/localhost:server-consumer:7001 - registration status: 204
+2019-07-11 22:31:14.354 INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-11 22:31:14.368 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path ''
+2019-07-11 22:31:14.369 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 7001
+2019-07-11 22:31:14.371 INFO  cn.intellif.server.consumer.ServerConsumerApplication - Started ServerConsumerApplication in 16.623 seconds (JVM running for 18.392)
+2019-07-11 22:31:14.395 INFO  cn.bucheng.feginrpc.core.server.ServerStartInitContextRunner - =====================refresh mapping success
+2019-07-11 22:31:15.862 INFO  cn.bucheng.feginrpc.core.server.net.NetServer -  start server in 7012 success
+2019-07-11 22:31:15.916 INFO  cn.bucheng.feginrpc.core.client.net.NetClient - =====================connect localhost:8011 success
+2019-07-11 22:31:44.819 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing SpringClientFactory-127.0.0.1: startup date [Thu Jul 11 22:31:44 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc
+2019-07-11 22:31:44.940 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-11 22:31:45.299 INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: 127.0.0.1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-11 22:31:45.326 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-127.0.0.1
+2019-07-11 22:31:45.550 INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: 127.0.0.1 instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=127.0.0.1,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-07-11 22:31:45.555 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-07-11 22:31:45.557 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client 127.0.0.1 initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=127.0.0.1,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@38c80c0a
+2019-07-11 22:31:56.785 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-11 22:31:56.785 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-11 22:31:56.789 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2019-07-11 22:31:56.927 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing SpringClientFactory-server-provider: startup date [Thu Jul 11 22:31:56 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@38b27cdc
+2019-07-11 22:31:56.976 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-07-11 22:31:57.000 INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: server-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-11 22:31:57.002 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-server-provider
+2019-07-11 22:31:57.003 INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: server-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=server-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-07-11 22:31:57.004 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-07-11 22:31:57.043 INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: server-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-11 22:31:57.045 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client server-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=server-provider,current list of Servers=[localhost:8000],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:8000;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@17bf6ff1
+2019-07-11 22:31:57.151 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:31:58.008 INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: server-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-11 22:32:08.906 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:32:09.323 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:32:09.496 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:32:09.691 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:32:09.856 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:32:10.022 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:33:50.323 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:36:14.175 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:41:14.176 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:46:14.179 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:51:10.963 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:54:24.183 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:31.376 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:32.111 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:32.683 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:33.266 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:33.576 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:33.963 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:34.270 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:34.412 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:34.777 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.082 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.231 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.395 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.547 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.711 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:35.859 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:36.093 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:36.241 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:36.402 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:36.553 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:36.818 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:37.158 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:37.491 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:37.639 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:37.766 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:37.921 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:38.161 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:38.319 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:38.558 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:38.953 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:39.086 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:39.269 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:39.509 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:39.661 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:39.833 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:40.092 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:40.399 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:40.547 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:40.802 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:40.955 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:41.307 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:41.448 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:41.601 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:41.760 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:41.945 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:56.565 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:56.724 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:56.890 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.062 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.229 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.394 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.547 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.694 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:57.848 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.031 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.200 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.343 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.485 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.625 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.773 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:58.907 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.069 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.219 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.386 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.524 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.677 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:54:59.860 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.020 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.204 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.358 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.522 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.688 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:00.837 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:01.019 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:01.195 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:01.352 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:01.631 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:01.944 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:02.098 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:02.263 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:02.440 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:02.900 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.020 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.207 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.424 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.574 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.850 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:03.980 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.136 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.320 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.469 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.670 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.808 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:04.957 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:05.177 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:05.311 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:05.471 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:05.639 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:05.896 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.031 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.174 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.384 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.509 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.673 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:06.908 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.041 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.218 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.405 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.578 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.844 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:07.972 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:08.172 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:08.330 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:08.505 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:08.770 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:08.886 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:09.040 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:09.250 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:09.405 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:09.597 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:09.766 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.047 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.193 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.376 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.542 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.768 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:24.892 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:55:25.030 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:56:10.965 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 22:56:21.293 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:59:26.074 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 22:59:26.740 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 23:01:10.966 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 23:06:10.969 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 23:11:10.969 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 23:16:10.971 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 23:21:10.972 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-11 23:22:33.036 INFO  cn.bucheng.feginrpc.core.base.FeignRPCClient - ===========begin start rpc invoke==========
+2019-07-11 23:22:39.036 INFO  cn.bucheng.feginrpc.core.client.holder.RemoteConnectionHolder - =========remove connection localhost_8011

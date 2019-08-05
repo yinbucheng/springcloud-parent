@@ -1,0 +1,23 @@
+2019-07-09 23:03:49.215 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:19.476 ERROR cn.bucheng.feginrpc.core.client.net.ClientHandler - ========================exception:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:04:19.476 ERROR cn.bucheng.feginrpc.core.server.net.ServerHandler - ===============java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:04:23.024 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:28.018 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:33.019 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:38.025 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:43.020 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:04:48.026 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:19:29.870 ERROR cn.bucheng.feginrpc.core.server.net.ServerHandler - ===============java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:19:29.871 ERROR cn.bucheng.feginrpc.core.client.net.ClientHandler - ========================exception:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:19:33.453 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:19:38.446 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:19:43.440 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:19:48.447 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:19:53.444 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:21:37.430 ERROR cn.bucheng.feginrpc.core.server.net.ServerHandler - ===============java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:21:37.431 ERROR cn.bucheng.feginrpc.core.client.net.ClientHandler - ========================exception:java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2019-07-09 23:21:38.464 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:21:43.460 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:21:48.469 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:21:53.458 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
+2019-07-09 23:21:58.461 ERROR cn.bucheng.feginrpc.core.client.net.NetClient - ===============start fail ,localhost:7012
