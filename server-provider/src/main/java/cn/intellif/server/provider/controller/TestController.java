@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -33,11 +34,44 @@ public class TestController {
     private JdbcTemplate jdbcTemplate;
 
 
-    @RequestMapping("/test")
-    public Object test(){
+    @GetMapping("/test")
+    public Object test(String name) {
+        System.out.println(name);
         return "test";
     }
 
+    @PostMapping("/testFormEncode")
+    public String testFormEncode(String name, String gender) {
+        System.out.println(name + ":" + gender);
+        return "test";
+    }
+
+    @RequestMapping("/testFormFile")
+    public String testFormFile(MultipartFile file) {
+        System.out.println(file.getSize());
+        return "success";
+    }
+
+
+    @RequestMapping("/testJson")
+    public Object testJson(@RequestBody Map<String, String> param) {
+        System.out.println(param);
+        return "success handler json";
+    }
+
+    @RequestMapping("/testForm")
+    public Object testForm(String name, String gender) {
+        System.out.println(name + ":" + gender);
+        return "success test form";
+    }
+
+
+    @RequestMapping("/testFile")
+    public Object testFile(MultipartFile file) {
+        System.out.println(file.getSize());
+        System.out.println("success handler file");
+        return "success handler file";
+    }
 
 
     @GetMapping("/hello")
@@ -46,15 +80,14 @@ public class TestController {
     public Object hello(String word) {
         try {
             System.out.println("=====================>test===============");
-           String content =  test.hello(word);
-           return ServerResult.success(content);
-        }catch (BlockException e){
+            String content = test.hello(word);
+            return ServerResult.success(content);
+        } catch (BlockException e) {
             return ServerResult.fail("block");
-        }catch (Exception e){
+        } catch (Exception e) {
             return ServerResult.fail(e.getMessage());
         }
     }
-
 
 
     @PostMapping("/batchSave")
@@ -68,7 +101,7 @@ public class TestController {
     @ApiOperation(value = "sql查询器", notes = "sql查询器")
     @ApiImplicitParam(name = "sql", value = "sql语句", required = true)
     public Object querySql(@RequestBody String sql) {
-        if (sql.contains("select")|| sql.contains("show")) {
+        if (sql.contains("select") || sql.contains("show")) {
             List<Map> query = jdbcTemplate.query(sql, new RowMapper<Map>() {
                 @Override
                 public Map mapRow(ResultSet resultSet, int i) throws SQLException {
